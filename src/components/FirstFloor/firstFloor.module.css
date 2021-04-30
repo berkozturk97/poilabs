@@ -1,0 +1,28 @@
+.container {
+  margin-top: 20px;
+  padding: 20px;
+  width: 60%;
+  height: 250px;
+  background: #243d83;
+  border-radius: 8px;
+}
+.firstSection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.secondSection {
+    display: flex;
+    margin: 8px;
+    justify-content: space-between;
+}
+.lastSection {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+

@@ -1,0 +1,26 @@
+.shopA {
+    background: #6592CF;
+    width: 12%;
+    padding: 10px;
+    height: 50px;
+    border-radius: 100px 0 0 0;
+     -moz-border-radius: 100px 0 0 0;
+     -webkit-border-radius: 100px 0 0 0;
+}
+.title {
+    padding-top: 20px;
+}
+.shopB {
+    width: 15%;
+    height: 70px;
+    background: #6592CF;
+    border-radius: 5px;
+}
+.shopC {
+    width: 15%;
+    height: 70px;
+    background: #6592CF;
+    border-radius: 0 100px 0 0;
+    -moz-border-radius: 0 100px 0 0;
+    -webkit-border-radius: 0 100px 0 0;
+}
