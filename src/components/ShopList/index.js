@@ -19,12 +19,12 @@ function ShopList({shopData}) {
       <List className={styles.listContainer}>
         <ListItem>
           <ListItemAvatar>
-            <Avatar src="/assets/brandLogo/apple.png" />
+            <Avatar src={shopData.logo} />
            
           </ListItemAvatar>
-          <ListItemText primary={shopData.name} secondary={"Floor: " + shopData.floor} />
+          <ListItemText primary={<span className={styles.shopName}>{shopData.name}</span>} secondary={<span className={styles.shopFloor}>Floor: {shopData.floor}</span>} />
           <ListItemSecondaryAction>
-                    <Button onClick={handleShopData}>Locate</Button>
+                    <Button className={styles.button} onClick={handleShopData}>Locate</Button>
         </ListItemSecondaryAction>
         </ListItem>
       </List>
