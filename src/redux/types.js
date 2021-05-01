@@ -1,0 +1,1 @@
+export const SEARCH_NEW_SHOP = "SEARCH_NEW_SHOP";
