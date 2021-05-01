@@ -4,7 +4,6 @@ import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
 import ListItemAvatar from "@material-ui/core/ListItemAvatar";
 import Avatar from "@material-ui/core/Avatar";
-import ImageIcon from "@material-ui/icons/Image";
 import styles from "./shopList.module.css";
 import { Button, ListItemSecondaryAction } from "@material-ui/core";
 import { useDispatch } from "react-redux";
@@ -20,9 +19,8 @@ function ShopList({shopData}) {
       <List className={styles.listContainer}>
         <ListItem>
           <ListItemAvatar>
-            <Avatar>
-              <ImageIcon />
-            </Avatar>
+            <Avatar src="/assets/brandLogo/apple.png" />
+           
           </ListItemAvatar>
           <ListItemText primary={shopData.name} secondary={"Floor: " + shopData.floor} />
           <ListItemSecondaryAction>

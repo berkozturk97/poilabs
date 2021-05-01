@@ -5,16 +5,15 @@ import { setSearchData } from "../../redux/actions/searchShopAction";
 import styles from "./searchBar.module.css";
 
 function SearchBar() {
-    const [searchShop, setSearchShop] = useState('');
-    const dispatch = useDispatch();
-    const handleSearchQuery = (e) => {
-        e.preventDefault();
-        setSearchShop(e.target.value);
-        dispatch(setSearchData(e.target.value))
-    }
+  const [searchShop, setSearchShop] = useState("");
+  const dispatch = useDispatch();
+  const handleSearchQuery = (e) => {
+    e.preventDefault();
+    setSearchShop(e.target.value);
+    dispatch(setSearchData(e.target.value));
+  };
   return (
     <div className={styles.container}>
-     
       <TextField
         value={searchShop}
         id="standard-basic"
@@ -22,16 +21,6 @@ function SearchBar() {
         className={styles.searchBar}
         label="Search shop"
       />
-      <Box ml={2}>
-      <Button
-        variant="contained"
-        color="primary"
-        className={styles.searchButton}
-      >
-        Search
-      </Button>
-      </Box>
-     
     </div>
   );
 }
