@@ -19,8 +19,8 @@ function SecondFloor() {
         })}
       </div>
       <div className={styles.secondSection}>
-        {(storeList || []).slice(20, 22).map((item) => {
-          return <SecondColumn name={item.name} />;
+        {(storeList || []).slice(20, 22).map((item, index) => {
+          return <SecondColumn shop={item} key={index} />;
         })}
       </div>
 

@@ -6,3 +6,10 @@ export function setSearchData(data) {
         payload: data,
     }
 }
+
+export function setShopData(data) {
+    return {
+        type: types.SET_SHOP_DATA,
+        payload: data,
+    }
+}
