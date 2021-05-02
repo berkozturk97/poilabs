@@ -68,12 +68,12 @@ const useStyles = makeStyles((theme) => ({
   },
   sectionMobile: {
     display: "flex",
+
     [theme.breakpoints.up("md")]: {
       display: "none",
     },
   },
 }));
-
 
 export default function Navigation() {
   const classes = useStyles();
@@ -100,7 +100,6 @@ export default function Navigation() {
         <Button className={classes.button} href="/settings" color="inherit">
           Settings
         </Button>
-       
       </div>
     );
   };
@@ -149,7 +148,11 @@ export default function Navigation() {
           <div className={classes.logoContainer}>
             <svg width="150" height="50" xmlns="http://www.w3.org/2000/svg">
               <a href="/">
-                <image href="/assets/poi-labs-logo.png" height="50" width="150" />
+                <image
+                  href="/assets/poi-labs-logo.png"
+                  height="50"
+                  width="150"
+                />
               </a>
             </svg>
           </div>
@@ -166,10 +169,12 @@ export default function Navigation() {
             >
               <MoreIcon />
             </IconButton>
+           
           </div>
         </Toolbar>
+        {renderMobileMenu}
       </AppBar>
-      {renderMobileMenu}
+     
     </div>
   );
 }
