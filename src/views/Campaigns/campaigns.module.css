@@ -2,5 +2,6 @@
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
+  padding-bottom: 40px;
   width: 80%;
 }
