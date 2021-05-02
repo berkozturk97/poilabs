@@ -3,7 +3,7 @@
     padding: 20px;
     width: 60%;
     height: 250px;
-    background: #243d83;
+    background: #90cec6;;
     border-radius: 8px;
   }
   .firstSection {
@@ -25,5 +25,11 @@
       flex-wrap: wrap;
       justify-content: space-evenly;
   }
+  @media only screen and (max-width: 700px) {
+    .container {
+        width: 100%;    
+    }
+  }
+
   
   

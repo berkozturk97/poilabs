@@ -1,5 +1,5 @@
 .shopE {
-    background: #6592CF;
+    background: white;
     width: 12%;
     padding: 10px;
     height: 50px;
@@ -13,14 +13,13 @@
 .shopB {
     width: 15%;
     height: 70px;
-    background: #6592CF;
+    background: white;
     border-radius: 5px;
 }
 .shopF {
-    background: #6592CF;
-    width: 12%;
-    padding: 10px;
-    height: 50px;
+    background: white;
+    width: 15%;
+    height: 70px;
     border-radius: 0 0 100px 0;
     -moz-border-radius: 0 0 100px 0;
     -webkit-border-radius: 0 0 100px 0;

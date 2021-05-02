@@ -5,6 +5,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #F5F5F5;
   background-image: url('http://localhost:3000/assets/presentation-bg.jpeg');
+  background-repeat: initial;
+  background-size: cover;
 }
 
 code {

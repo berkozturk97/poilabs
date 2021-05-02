@@ -9,7 +9,13 @@ function ThirdColumn({ shop }) {
       return (
         <div className={styles.shopE}>
           {selectedShopData.id === shop.id ? (
-            <RoomIcon style={{ color: "red" }} />
+            <lord-icon
+              src="https://cdn.lordicon.com/zzcjjxew.json"
+              trigger="loop"
+              colors="primary:#121331,secondary:#08a88a"
+              stroke="100"
+              style={{ width: 32, height: 32 }}
+            ></lord-icon>
           ) : (
             <></>
           )}
@@ -20,7 +26,13 @@ function ThirdColumn({ shop }) {
       return (
         <div className={styles.shopB}>
           {selectedShopData.id === shop.id ? (
-            <RoomIcon style={{ color: "red" }} />
+            <lord-icon
+              src="https://cdn.lordicon.com/zzcjjxew.json"
+              trigger="loop"
+              colors="primary:#121331,secondary:#08a88a"
+              stroke="100"
+              style={{ width: 32, height: 32 }}
+            ></lord-icon>
           ) : (
             <></>
           )}
@@ -31,7 +43,13 @@ function ThirdColumn({ shop }) {
       return (
         <div className={styles.shopF}>
           {selectedShopData.id === shop.id ? (
-            <RoomIcon style={{ color: "red" }} />
+            <lord-icon
+              src="https://cdn.lordicon.com/zzcjjxew.json"
+              trigger="loop"
+              colors="primary:#121331,secondary:#08a88a"
+              stroke="100"
+              style={{ width: 32, height: 32 }}
+            ></lord-icon>
           ) : (
             <></>
           )}

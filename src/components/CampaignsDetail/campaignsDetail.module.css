@@ -1,0 +1,20 @@
+.container {
+    max-width: 345px;
+    max-height: 400px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+}
+.campaignHeader {
+    font-family: 'Titillium Web', sans-serif;
+}
+.campaginDescription {
+
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.cardImage {
+    height: 140px;
+}

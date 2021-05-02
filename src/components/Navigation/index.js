@@ -94,10 +94,10 @@ export default function Navigation() {
         <Button className={classes.button} href="/" color="inherit">
           Home
         </Button>
-        <Button className={classes.button} href="/" color="inherit">
+        <Button className={classes.button} href="/campaigns" color="inherit">
           Campaigns
         </Button>
-        <Button className={classes.button} href="/" color="inherit">
+        <Button className={classes.button} href="/settings" color="inherit">
           Settings
         </Button>
        
@@ -114,12 +114,12 @@ export default function Navigation() {
           </Button>
         </MenuItem>
         <MenuItem>
-          <Button className={classes.button} href="/" color="inherit">
+          <Button className={classes.button} href="/campaigns" color="inherit">
             Campaigns
           </Button>
         </MenuItem>
         <MenuItem>
-          <Button className={classes.button} href="/" color="inherit">
+          <Button className={classes.button} href="/settings" color="inherit">
             Settings
           </Button>
         </MenuItem>
