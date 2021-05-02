@@ -9,7 +9,6 @@ function Campaigns() {
   const [shopList, setShopList] = useState();
   const { searchQuery } = useSelector((state) => state.search);
   useEffect(() => {
-    console.log(searchQuery);
     const filteredData = (shopList || []).filter((value) => {
       if (searchQuery === "") {
         return shopList;

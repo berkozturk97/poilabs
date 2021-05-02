@@ -20,7 +20,6 @@ function HomePage() {
   const { selectedShopData } = useSelector((state) => state.search);
 
   useEffect(() => {
-    console.log(searchQuery);
     const filteredData = (shopData || []).filter((value) => {
       if (searchQuery === "") {
         return shopData;
