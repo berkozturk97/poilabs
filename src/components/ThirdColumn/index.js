@@ -19,7 +19,7 @@ function ThirdColumn({ shop }) {
           ) : (
             <></>
           )}
-          <div className={styles.title}>{shop.name}</div>
+          <div className={styles.titleE}>{shop.name}</div>
         </div>
       );
     } else if (shop.shopType === "B") {
@@ -53,7 +53,7 @@ function ThirdColumn({ shop }) {
           ) : (
             <></>
           )}
-          <div className={styles.title}>{shop.name}</div>
+          <div className={styles.titleF}>{shop.name}</div>
         </div>
       );
     }

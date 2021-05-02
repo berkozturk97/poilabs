@@ -1,0 +1,11 @@
+.countryContainer {
+    display: flex;
+    padding: 40px;
+}
+.visualDisableContainer {
+    display: flex;
+    padding: 40px;
+}
+.title {
+    margin-right: 20px;
+}

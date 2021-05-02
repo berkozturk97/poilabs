@@ -56,7 +56,7 @@ function FirstColumn({ shop }) {
           ) : (
             <></>
           )}
-          <div className={styles.title}>{shop.name}</div>
+          <div className={styles.titleC}>{shop.name}</div>
         </div>
       );
     }

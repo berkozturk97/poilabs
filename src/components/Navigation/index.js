@@ -11,7 +11,7 @@ import Button from "@material-ui/core/Button";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
-    flexGrow: 1,
+    flexGrow: 2,
   },
   logoContainer: {
     paddingLeft: 36,
